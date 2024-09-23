@@ -1,4 +1,4 @@
-# UD2 - Manejo de ficheros BLOQUE2
+# UD1 - Manejo de ficheros BLOQUE2
 1.Crea una nueva clase llamada Persona con los atributos (id,nombre,edad, dni). 
 
   a. Crea una función para guardar un objeto Persona en un fichero con el nombre persona1 
