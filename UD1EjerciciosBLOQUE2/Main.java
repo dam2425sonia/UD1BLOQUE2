@@ -57,11 +57,12 @@ public class Main {
         }
 
         // 3.a Lee un fichero de tipo imagen (binario) y muestra su contenido por pantalla 	
-        try (FileInputStream fileInputStream = new FileInputStream("crondose.jpg")) {
+        try (FileInputStream fileInputStream = new FileInputStream("UD1EjerciciosBLOQUE2/crondose.jpg")) {
             System.out.println("Contenido del fichero imagen:");
             int content;
             while ((content = fileInputStream.read()) != -1) {
-               // System.out.print(content + " ");
+                // Descomentar línea 65 para ver los bytes leidos del fichero binario
+                // System.out.print(content + " ");
             }
         } catch (IOException e) {
             e.printStackTrace();
